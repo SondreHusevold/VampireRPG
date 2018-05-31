@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Performance",
+	"description": " The Performance Skill governs your ability to perform artistic endeavors such as singing, dancing, acting, or playing a musical instrument. You are almost certainly specialized in one field, although true virtuosos may be talented in many forms of performance. <br><br>This Skill represents not only technical know-how, but the ability to work an audience and enrapture them with your show. As with Crafts, you must choose a specialty, even though this Skill also imparts a general sense for watching and responding to your audience’s mood regardless of medium.",
+	"levels": {
+		"one": "You could sing in the church choir.",
+		"two": "Your Internet videos have over a hundred thousand views.",
+		"three": "You almost always have a gig booked.",
+		"four": "You have the talent to be a national sensation.",
+		"five": "You are a virtuoso without peer."
+	},
+	"possessedBy": "Musicians, College Students, Actors, Ballerinas, Mimes",
+	"specialties": "Dancing, Singing, Rock and Roll, Acting, Guitar Solos, Drunken Karaoke"
+}

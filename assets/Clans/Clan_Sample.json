@@ -1,0 +1,33 @@
+{
+	"id": 0,
+	"name": "",
+	"description": "",
+	"nickname": "",
+	"appearance": "",
+	"haven": "",
+	"background": "",
+	"creation": "",
+	"disciplines": [
+		"",
+		"",
+		""
+	],
+	"weaknesses": "",
+	"organization": "",
+	"quote": "",
+	"stereotypesSects": {
+		"anarchs": "",
+		"camarilla": "",
+		"sabbat": ""
+	},
+	"stereotypesClans": {
+		"brujah": "",
+		"caitiff": "",
+		"gangrel": "",
+		"malkavian": "",
+		"nosferatu": "",
+		"toreador": "",
+		"tremere": "",
+		"ventrue": ""
+	}
+}

@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Subterfuge",
+	"description": " You know how to conceal your own motives and project what you wish. Furthermore, if you can root out other people’s motives, you can then use those motives against them. This Talent defines your talent for intrigue, secrets, and double-dealing. Mastery of Subterfuge can make you the ultimate seducer or a brilliant spy.",
+	"levels": {
+		"one": "You tell the occasional white lie.",
+		"two": "Vampire",
+		"three": "Criminal lawyer",
+		"four": "Deep-cover agent",
+		"five": "You’re the very last person anyone would suspect."
+	},
+	"possessedBy": "Politicians, Lawyers, Vampires, Teenagers, Con Men, Pick-up Artists",
+	"specialties": "Seduction, Impeccable Lies, Feigning Mortality, the Long Con"
+}

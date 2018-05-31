@@ -1,0 +1,14 @@
+{
+	"id": 2,
+	"name": "Drive",
+	"description": " You can drive a car, and maybe other vehicles as well. This Skill does not automatically entail familiarity with complicated vehicles such as tanks or 18-wheelers, and difficulties may vary depending on your experience with individual automobiles. After all, helming a station wagon doesn’t prepare you for double-clutching a Maserati at 100 miles per hour.",
+	"levels": {
+		"one": "You know how to work an automatic transmission.",
+		"two": "You can drive a stick shift.",
+		"three": "Professional trucker",
+		"four": "NASCAR daredevil or tank pilot",
+		"five": "Whether it’s a Fiat or a Ferrari, you can make it sing."
+	},
+	"possessedBy": "Cabbies, Truckers, Race Car Drivers, Automotive Show Hosts, Rebels",
+	"specialties": "Off-Road, Motorcycles, High Speed, Heavy Traffic, Avoiding Traffic Cops"
+}

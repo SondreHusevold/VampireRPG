@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Computer",
+	"description": " This Knowledge represents the ability to operate and program computers, including mobile devices. Most Computer use also imparts a degree of Internet awareness (if not savvy).",
+	"levels": {
+		"one": "You can navigate touchscreen and traditional point-and-click GUIs.",
+		"two": "You know your way around various applications and the Internet.",
+		"three": "You know what to do with a text command prompt.",
+		"four": "You can make a very comfortable living as a consultant.",
+		"five": "You have all the SDKs and comprehend data structures for a stunning variety of programming languages."
+	},
+	"possessedBy": "Hackers, Office Workers, Programmers, Data Processors, Students",
+	"specialties": "Computer Languages, Internet, Database Administration, HCI, Viruses, specific devices and programs"
+}

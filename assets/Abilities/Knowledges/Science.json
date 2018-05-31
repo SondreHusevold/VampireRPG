@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Science",
+	"description": " You have at least a basic understanding of most of the physical sciences, such as chemistry, biology, physics, and geology. This Knowledge can be put to all forms of practical use. In most cases, a player should select a specialty to reflect a focus for her character’s scientific studies, but this isn’t strictly necessary.",
+	"levels": {
+		"one": "You know most of the high-school basics.",
+		"two": "You’re familiar with the major theories.",
+		"three": "You could teach high-school science.",
+		"four": "You’re fully capable of advancing the knowledge in your field.",
+		"five": "Your Nobel Prize is waiting for you."
+	},
+	"possessedBy": "Scientists, Students, Researchers, Teachers, Engineers, Technicians, Pilots",
+	"specialties": "Chemistry, Biology, Geology, Physics, Astronomy"
+}

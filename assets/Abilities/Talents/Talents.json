@@ -1,0 +1,5 @@
+{
+	"name": "Talents",
+	"description": " Talents describe what you intuitively know, what you can do without coaching or instruction. The only way to improve your Talents is through direct experience — with the exception of a very few cases (such as studying a text on Jeet Kune Do to learn a single dot of Brawl), these things can’t be learned from a book or an Internet video. If you try an action involving a Talent your character doesn’t possess, there’s no penalty to your basic Attribute dice pool. Talents are so intuitive that virtually everyone can execute them with some degree of capacity.",
+	"abilities": ["Alertness", "Athletics", "Awareness", "Brawl", "Empathy", "Expression", "Intimidation", "Leadership", "Streetwise", "Subterfuge"]
+}

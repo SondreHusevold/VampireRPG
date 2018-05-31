@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Streetwise",
+	"description": " The streets can provide a lot of information or money to those who know the language. Streetwise allows you to blend in unobtrusively with the local scene, pick up gossip, understand slang, or even dabble in criminal doings.",
+	"levels": {
+		"one": "You know who’s holding.",
+		"two": "You’re accorded respect on the street.",
+		"three": "You could head your own gang.",
+		"four": "You have little to fear in even the worst neighborhoods.",
+		"five": "If you haven’t heard it, it hasn’t been said."
+	},
+	"possessedBy": "Criminals, Homeless People, Reporters, Clubgoers, Savvy Detectives, Neonates",
+	"specialties": "Fencing, Illegal Drugs, Illegal Weapons, Free Wifi, Gangs, Being On the Guest List, Local Slang"
+}

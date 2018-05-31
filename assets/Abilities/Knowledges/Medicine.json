@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Medicine",
+	"description": " You have an understanding of how the human body — and to a lesser extent the vampiric body — works. <br><br>This Ability covers knowledge of medicines, ailments, first-aid procedures, and diagnosis or treatment of disease. Medicine is of great use to those Kindred with an interest in repairing, damaging, or reworking the human body.",
+	"levels": {
+		"one": "You’ve taken a CPR course.",
+		"two": "Premed or paramedic",
+		"three": "General practitioner",
+		"four": "You can perform transplants.",
+		"five": "You are respected by the world’s medical community as a pioneer."
+	},
+	"possessedBy": "Med Students, Doctors, Lifeguards, Parents, Paramedics, Tzimisce",
+	"specialties": "Organ Transplants, Emergency Care, Poison Treatments, Pathology, Pharmaceuticals, the Kindred Condition"
+}

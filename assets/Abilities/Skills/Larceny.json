@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Larceny",
+	"description": " This Skill entails familiarity with the tools and techniques for the sorts of physical manipulation typically associated with criminal activity. Picking locks, manual forgery, safecracking, simple hotwiring, various forms of breaking and entering, and even sleight-of-hand all fall under the auspices of Larceny. <br><br>Larceny is useful not only for theft, but also for setting up “the unbeatable system” or deducing where a thief broke in. This skill does not confer any aptitude with advanced security or anti-crime technologies such as video surveillance or alarm systems — those are covered by the Technology Knowledge.",
+	"levels": {
+		"one": "You can pick a simple lock.",
+		"two": "You could run a shell game hustle on the corner.",
+		"three": "You can open a standard locked window from the outside.",
+		"four": "You can “retool” a passport or ID card.",
+		"five": "You could get into (or out of...) a multinational bank’s central vault."
+	},
+	"possessedBy": "Burglars, Security Consultants, Policemen, Car Thieves, Street Magicians",
+	"specialties": "Safecracking, Misdirection, Lockpicking, Hotwiring, Pickpocketing"
+}

@@ -1,0 +1,14 @@
+{
+	"id": 4,
+	"name": "Empathy",
+	"description": " You understand the emotions of others, and can sympathize with, feign sympathy for, or play on such emotions as you see fit. You are adept at discerning motive, and might be able to discern when someone’s lying to you. However, you may be so in tune with other people’s feelings that your own emotions are affected.",
+	"levels": {
+		"one": "You lend the occasional shoulder to cry on.",
+		"two": "You can sometimes literally feel someone else’s suffering.",
+		"three": "You have a keen insight into other people’s motivations.",
+		"four": "It’s almost impossible to lie to you.",
+		"five": "The human soul conceals no mysteries from you."
+	},
+	"possessedBy": "Social Workers, Parents, Actors, Psychologists, Detectives, Seducers, Mediums, Best Friends",
+	"specialties": "Emotions, Insight, Motives, Gaining Trust"
+}

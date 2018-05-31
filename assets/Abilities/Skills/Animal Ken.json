@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Animal Ken",
+	"description": " You can understand animals’ behavior patterns. This Skill allows you to predict how an animal might react in a given situation, train a domesticated creature, or even try to calm or enrage animals.",
+	"levels": {
+		"one": "You can get a domesticated horse to let you pet it.",
+		"two": "You can housebreak a puppy.",
+		"three": "You could train a seeingeye dog.",
+		"four": "Circus trainer",
+		"five": "You can tame wild beasts without benefit of supernatural powers."
+	},
+	"possessedBy": "Farmers, Animal Trainers, Zookeepers, Veterinarians, Pet Owners, Domitors",
+	"specialties": "Dogs, Attack Training, Big Cats, Horses, Farm Animals, Falconry"
+}
