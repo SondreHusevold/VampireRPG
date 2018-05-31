@@ -46,5 +46,6 @@
     "protractor": "~5.3.0",
     "ts-node": "~5.0.1",
     "tslint": "~5.9.1"
-  }
+  },
+  "scripts": { "deploy": "ng build --prod --base-href https://sondrehusevold.github.io/VampireRPG/ && mv dist/VampireRPG/* dist/ && rm -R dist/VampireRPG && angular-cli-ghpages --branch gh-pages" }
 }

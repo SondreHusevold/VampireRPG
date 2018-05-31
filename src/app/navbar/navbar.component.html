@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#" routerLink="/home">
-    	<img id="logo" src="../assets/ankh.png" alt="Home" class="img-fluid">
+    	<img id="logo" src="assets/ankh.png" alt="Home" class="img-fluid">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -10,9 +10,7 @@
 		<li class="nav-item dropdown" ngbDropdown>
 		  <a class="nav-link dropdown-toggle" id="dropdown01" ngbDropdownToggle>Information</a>
 		  <div class="dropdown-menu" aria-labelledby="dropdown01" ngbDropdownMenu>
-		    <a class="dropdown-item" href="#">Game Terms Glossary</a>	 	
 		    <a class="dropdown-item" routerLink="/d10system">The D10 Ruleset</a>	
-		    <a class="dropdown-item" href="#">Setting</a>
 		  </div>
 		</li>
         <li class="nav-item dropdown" ngbDropdown>
@@ -55,19 +53,8 @@
 		  </div>
 		</li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Disciplines</a>
+          <a class="nav-link" routerLink="/disciplines">Disciplines</a>
         </li>
-        <li class="nav-item dropdown" ngbDropdown>
-		  <a class="nav-link dropdown-toggle" id="dropdown01" ngbDropdownToggle>Other</a>
-		  <div class="dropdown-menu" aria-labelledby="dropdown01" ngbDropdownMenu>
-		    <a class="dropdown-item" href="#">Merits/Flaws</a>
-		    <a class="dropdown-item" href="#">Humanity/Path</a>
-		    <a class="dropdown-item" href="#">Willpower</a>
-			<a class="dropdown-item" href="#">Health</a>
-			<a class="dropdown-item" href="#">Blood Pool</a>
-			<a class="dropdown-item" href="#">Experience</a>
-		  </div>
-		</li>
         <li class="nav-item">
           <a class="nav-link" href="https://mrgone.rocksolidshells.com/pdf/V20/V20_4-Page_Neonate.pdf" target="_blank">Character Sheet</a>
         </li>

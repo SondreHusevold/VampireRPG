@@ -11,6 +11,7 @@ import { ClansDetailComponent } from './clans-detail/clans-detail.component';
 import { AttributesComponent } from './attributes/attributes.component';
 import { AbilitiesComponent } from './abilities/abilities.component';
 import { D10systemComponent } from './d10system/d10system.component';
+import { DisciplinesComponent } from './disciplines/disciplines.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { D10systemComponent } from './d10system/d10system.component';
     ClansDetailComponent,
     AttributesComponent,
     AbilitiesComponent,
-    D10systemComponent
+    D10systemComponent,
+    DisciplinesComponent
   ],
   imports: [
     BrowserModule,

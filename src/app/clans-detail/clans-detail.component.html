@@ -3,6 +3,9 @@
 		<h1 class="col-sm">{{clan.name}}</h1>
 	</div>
 	<img id="clanLogo" src="./assets/Clans/{{clan.name}}/logo.png" class="img-fluid">
+	<div class="row">
+		<span class="col-sm"><br></span>
+	</div>
 	<div id="quote" class="row">
 		<p class="col-sm">'{{clan.quote}}'</p>
 	</div>
@@ -26,12 +29,10 @@
 						<p class="col-sm"[innerHTML]="clan.description"></p>
 					</div>
 					<div id="disciplinesTitle" class="row">
-						<h4 class="col-sm">Disciplines:</h4>
+						<h4 class="col-sm"><a routerLink="/disciplines">Disciplines:</a></h4>
 					</div>
 					<div *ngFor="let disc of clan.disciplines">
-						<a routerLink="/disciplines/{{disc}}">
-							<p>{{disc}}</p>
-						</a>
+						<p>{{disc}}</p>
 					</div>
 				</ng-template>
 			</ngb-tab>

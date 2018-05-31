@@ -52,10 +52,43 @@
 				<br>
 				<div class="row">
 					<div class="col-sm">
-						<h5>Specialties:</h5> {{selectedAbility.specialties}}
+						<h5><a (click)="open(content)" routerLink="#">Specialties:</a></h5> {{selectedAbility.specialties}}
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">Specialties:</h4>
+  </div>
+  <div class="modal-body">
+  	<p>
+  		Some characters are especially good at
+		particular applications of their Traits. For
+		example, a mechanic might be particularly
+		good with muscle cars, a thief might excel at
+		breaking and entering, or a brawler might be
+		infamous as a dirty fighter. To represent this,
+		characters with ratings of 4 or higher in Attributes or 
+		Abilities may choose specialties for those Traits.
+  	</p>
+  	<p>
+		A specialty is a particular subcategory of an
+		Attribute or Ability — thus, a character with
+		a Strength 5 might choose to be especially
+		adept in deadlifting, while a character with
+		Performance 4 might be renowned for her
+		singing. Whenever a player makes a die roll
+		involving an activity in which her character
+		has specialized, she may count any die that
+		comes up “10” as two successes instead of just
+		one.
+	</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>

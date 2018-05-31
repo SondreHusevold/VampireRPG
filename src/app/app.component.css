@@ -1,7 +1,64 @@
+@font-face {
+    font-family: mephisto;
+    src: url("/assets/MEPHISTO.TTF");
+}
+
 body {
 	padding-top: 70px; 
 }
 .main-content {
     padding: 5rem 1.5rem;
     text-align: center;
+}
+
+/deep/ body {
+	background-color: black;
+	color: white;
+}
+
+/deep/ a {
+	color: rgba(255, 255, 255, 0.75);
+}
+
+/deep/ a:hover {
+	color: white;
+}
+
+/deep/ h1 {
+	font-family: mephisto;
+}
+
+/deep/ h2 {
+	color: crimson;
+	font-family: mephisto;
+}
+
+/deep/ h3 {
+	color: crimson;
+	font-family: mephisto;
+}
+
+/deep/ h4 {
+	color: crimson;
+	font-family: mephisto;
+}
+
+/deep/ h5 {
+	color: crimson;
+	font-family: mephisto;
+}
+
+/deep/ .modal-body{
+	background-color: black;
+	color: white;
+}
+
+/deep/ .modal-header {
+	background-color: black;
+	color: white;
+}
+
+/deep/ .modal-footer {
+	background-color: black;
+	color: white;
 }

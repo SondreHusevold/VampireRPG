@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router, ParamMap } from '@angular/router';
+import {NgbModal, ModalDismissReasons} from '@ng-bootstrap/ng-bootstrap';
 import { Location } from '@angular/common';
 import { AbilityService }  from '../ability.service';
 import { Ability } from '../Ability';
@@ -18,7 +19,8 @@ export class AbilitiesComponent implements OnInit {
 
   constructor(private route: ActivatedRoute,
 		private abilityService: AbilityService,
-		private location: Location) { }
+		private location: Location,
+		private modalService: NgbModal) { }
 
 	ngOnInit() {
 		this.route.paramMap.subscribe((params: ParamMap) => {
@@ -31,6 +33,10 @@ export class AbilitiesComponent implements OnInit {
 			if(this.abilityId != null)
 				this.getAbility();
 		});
+	}
+
+	open(content) {
+		this.modalService.open(content).result;
 	}
 
 	getAbilityType(){
