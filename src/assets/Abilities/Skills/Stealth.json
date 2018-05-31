@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Stealth",
+	"description": " This Skill is the ability to avoid being detected, whether you’re hiding or moving at the time. <br><br>Stealth is often tested against someone else’s Perception + Alertness. This Ability is, for obvious reasons, highly useful in stalking prey. In many cases, Stealth is also used to conceal items, whether on one’s person or somewhere in the environment.",
+	"levels": {
+		"one": "You can hide in a darkened room.",
+		"two": "You can shadow someone from streetlight to streetlight.",
+		"three": "You have little difficulty finding prey from evening to evening.",
+		"four": "You can move quietly over dry leaves.",
+		"five": "Nosferatu elder"
+	},
+	"possessedBy": "Burglars, Assassins, Kindred, Spies, Reporters, Commandos",
+	"specialties": "Hiding, Silent Movement, Shadowing, Crowds"
+}

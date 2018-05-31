@@ -1,0 +1,14 @@
+{
+	"id": 0,
+	"name": "Intimidation",
+	"description": " Intimidation takes many forms, from outright threats and physical violence to mere force of personality. It needn’t be course or callous, and a well-placed intimidating word under the right circumstances might well be called “diplomacy” in certain circles. You know the right method for each occasion, and can be very... persuasive.",
+	"levels": {
+		"one": "Shady teenager",
+		"two": "Skinhead thug",
+		"three": "Drill sergeant",
+		"four": "Your air of authority cows casual passersby.",
+		"five": "You can frighten off vicious animals."
+	},
+	"possessedBy": "Bullies, Military Officers, Bouncers, Gangsters, Sabbat",
+	"specialties": "Veiled Threats, Pulling Rank, Physical Coercion, Blackmail, Internet"
+}

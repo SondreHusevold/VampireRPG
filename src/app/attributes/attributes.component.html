@@ -1,0 +1,82 @@
+<div *ngIf="attri">
+	<div id="attriTitle" class="row">
+		<h1 class="col-sm">{{attri.name}}</h1>
+	</div>
+	<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+		<div>
+			<h4>Description:</h4>
+		</div>
+		<div class="row">
+			<p class="col-sm" [innerHTML]="attri.description"></p>
+		</div>
+		<div class="row">
+			<h4 class="col-sm">Levels:</h4>
+		</div>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm text-left">&#9679; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Poor: {{attri.levels.one}}</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm text-left">&#9679;&#9679; &nbsp; &nbsp; &nbsp; &nbsp; Average: {{attri.levels.two}}</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm text-left">&#9679;&#9679;&#9679; &nbsp; &nbsp; &nbsp; Good: {{attri.levels.three}}</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm text-left">&#9679;&#9679;&#9679;&#9679; &nbsp; &nbsp; Exceptional: {{attri.levels.four}}</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-3"></div>
+			<div class="col-sm text-left">&#9679;&#9679;&#9679;&#9679;&#9679; &nbsp; Outstanding: {{attri.levels.five}}</div>
+		</div>
+		<br>
+		<div class="row">
+			<h4 class="col-sm"><a (click)="open(content)" routerLink="#">Specialties:</a></h4>
+		</div>
+		<div *ngFor="let special of attri.specialties">
+				<p>{{special}}</p>
+		</div>
+	</div>
+</div>
+
+<ng-template #content let-c="close" let-d="dismiss">
+  <div class="modal-header">
+    <h4 class="modal-title">Specialties:</h4>
+    <button type="button" class="close" aria-label="Close" (click)="d('Cross click')">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+  	<p>
+  		Some characters are especially good at
+		particular applications of their Traits. For
+		example, a mechanic might be particularly
+		good with muscle cars, a thief might excel at
+		breaking and entering, or a brawler might be
+		infamous as a dirty fighter. To represent this,
+		characters with ratings of 4 or higher in Attributes or 
+		Abilities may choose specialties for those Traits.
+  	</p>
+  	<p>
+		A specialty is a particular subcategory of an
+		Attribute or Ability — thus, a character with
+		a Strength 5 might choose to be especially
+		adept in deadlifting, while a character with
+		Performance 4 might be renowned for her
+		singing. Whenever a player makes a die roll
+		involving an activity in which her character
+		has specialized, she may count any die that
+		comes up “10” as two successes instead of just
+		one.
+	</p>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-outline-dark" (click)="c('Close click')">Close</button>
+  </div>
+</ng-template>
+

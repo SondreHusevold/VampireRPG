@@ -1,0 +1,174 @@
+<div *ngIf="clan">
+	<div id="clanTitle" class="row">
+		<h1 class="col-sm">{{clan.name}}</h1>
+	</div>
+	<img id="clanLogo" src="./assets/Clans/{{clan.name}}/logo.png" class="img-fluid">
+	<div id="quote" class="row">
+		<p class="col-sm">'{{clan.quote}}'</p>
+	</div>
+	<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+		<ngb-tabset>
+			<ngb-tab title="Basic Information">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="nicknameTitle" class="row">
+						<h4 class="col-sm">Nickname:</h4>
+					</div>
+					<div id="nickname" class="row">
+						<p class="col-sm">{{clan.nickname}}</p>
+					</div>
+					<div id="descriptionTitle" class="row">
+						<h4 class="col-sm">Description:</h4>
+					</div>
+					<div id="description" class="row">
+						<p class="col-sm"[innerHTML]="clan.description"></p>
+					</div>
+					<div id="disciplinesTitle" class="row">
+						<h4 class="col-sm">Disciplines:</h4>
+					</div>
+					<div *ngFor="let disc of clan.disciplines">
+						<a routerLink="/disciplines/{{disc}}">
+							<p>{{disc}}</p>
+						</a>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Appearance">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="appearanceTitle" class="row">
+						<h4 class="col-sm">Appearance:</h4>
+					</div>
+					<div id="appearance" class="row">
+						<p class="col-sm" [innerHTML]="clan.appearance"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Haven">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="havenTitle" class="row">
+						<h4 class="col-sm">Haven:</h4>
+					</div>
+						<div id="haven" class="row">
+						<p class="col-sm" [innerHTML]="clan.haven"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Background">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="backgroundTitle" class="row">
+						<h4 class="col-sm">Background:</h4>
+					</div>
+						<div id="background" class="row">
+						<p class="col-sm" [innerHTML]="clan.background"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Creation">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="creationTitle" class="row">
+						<h4 class="col-sm">Character Creation:</h4>
+					</div>
+					<div id="creation" class="row">
+						<p class="col-sm" [innerHTML]="clan.creation"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Weaknesses">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="weaknessesTitle" class="row">
+						<h4 class="col-sm">Weaknesses:</h4>
+					</div>
+					<div id="weaknesses" class="row">
+						<p class="col-sm" [innerHTML]="clan.weaknesses"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Organization">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="organizationTitle" class="row">
+						<h4 class="col-sm">Organization:</h4>
+					</div>
+					<div id="organization" class="row">
+						<p class="col-sm" [innerHTML]="clan.organization"></p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Stereotypes">
+				<ng-template ngbTabContent>
+					<br>
+					<div id="sectsTitle" class="row">
+						<h3 class="col-sm">Sects:</h3>
+					</div>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<h5>Camarilla:</h5> 
+						<p>&nbsp;"{{clan.stereotypesSects.camarilla}}"</p>
+					</div>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<h5>Anarchs:</h5> 
+						<p>&nbsp; "{{clan.stereotypesSects.anarchs}}"</p>
+					</div>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<h5>Sabbat:</h5> 
+						<p>&nbsp; "{{clan.stereotypesSects.sabbat}}"</p>
+					</div>
+					<hr>
+					<div id="sectsTitle" class="row">
+						<h3 class="col-sm">Clans:</h3>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Brujah'">
+						<div class="col-sm-2"></div>
+						<h5>Brujah:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.brujah}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Gangrel'">
+						<div class="col-sm-2"></div>
+						<h5>Gangrel:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.gangrel}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Malkavian'">
+						<div class="col-sm-2"></div>
+						<h5>Malkavian:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.malkavian}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Nosfertau'">
+						<div class="col-sm-2"></div>
+						<h5>Nosferatu:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.nosferatu}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Toreador'">
+						<div class="col-sm-2"></div>
+						<h5>Toreador:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.toreador}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Tremere'">
+						<div class="col-sm-2"></div>
+						<h5>Tremere:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.tremere}}"</p>
+					</div>
+					<div class="row" *ngIf="clan.name != 'Ventrue'">
+						<div class="col-sm-2"></div>
+						<h5>Ventrue:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.ventrue}}"</p>
+					</div>
+					<div class="row">
+						<div class="col-sm-2"></div>
+						<h5>Caitiff:</h5> 
+						<p>&nbsp;"{{clan.stereotypesClans.caitiff}}"</p>
+					</div>
+				</ng-template>
+			</ngb-tab>
+		</ngb-tabset>
+		</div>
+	</div>
+</div>

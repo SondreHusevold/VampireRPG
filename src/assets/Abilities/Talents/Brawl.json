@@ -1,0 +1,14 @@
+{
+	"id": 3,
+	"name": "Brawl",
+	"description": " The Brawl Talent represents how well you fight in tooth-and-nail situations. This Talent represents skill in unarmed combat, whether from formal martial arts training or simply from plenty of experience. Effective brawlers are coordinated, resistant to pain, quick, strong, and mean. The willingness to do whatever it takes to hurt your opponent wins plenty of fights.",
+	"levels": {
+		"one": "You were picked on as a kid.",
+		"two": "You’ve participated in the occasional barroom tussle.",
+		"three": " You’ve fought regularly and routinely, and generally walked away in better shape than your opponents.",
+		"four": "You could be a serious contender on the MMA circuit.",
+		"five": "Somewhere on the Internet, there’s a video of you taking down three men in four seconds."
+	},
+	"possessedBy": "Military, Police, Roughnecks, Thugs",
+	"specialties": "Dirty Fighting, Strikes, Throws, Submission Holds, specific martial arts or combat styles"
+}

@@ -1,0 +1,353 @@
+<div class="row">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
+			<h2>The D10 System</h2>
+			<img id="d10image" class="img-fluid" src="assets/D10.png">
+			<p>Vampire uses 10-sided dice. You can find these in most game stores or through online retailers. 
+				The Storyteller may need a number of dice; players need plenty as well, but can share
+				among themselves. Ten dice are all that a beginning character will need at a given time.
+			</p>
+			<ngb-tabset>
+				<ngb-tab title="Dice Pools">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Dice Pools</h4>
+						<p>
+							Whenever you roll dice, you roll one die for every dot
+							your character possesses in the appropriate Trait. For
+							instance, if your character is trying to find something
+							and he has three dots in Perception, you would roll
+							three dice. However, you almost never simply roll the
+							number of dice you have in an Attribute. Raw potential is 
+							modified by skill, after all, and so the most common 
+							rolls in the game involve adding the dice gained
+							from an Attribute to the dice gained from an Ability.
+						</p>
+						<p>
+							For instance, if your character were trying to trick
+							the Nosferatu elder’s ghoul into revealing her master’s
+							location, the Storyteller might have you roll Manipulation 
+							+ Subterfuge: an Attribute plus an Ability. In
+							this case, you might take three dice for your Manipulation 
+							of 3, plus as many dice as your character has in
+							Subterfuge — say, two — so you get two more dice
+							from that. Thus, you roll a total of five dice to determine 
+							your character’s success or failure at confound-
+							ing the ghoul. These dice are called the dice pool: the
+							total number of dice you roll for a single action.
+						</p>
+						<p>
+							Not every roll requires an Ability to be added to an
+							Attribute. For example, lifting an object is a pure application 
+							of Strength alone, while a Humanity roll to test for moral degradation 
+							obviously draws its dice pool solely from the Humanity Trait.
+						</p>
+						<p>
+							If your dice pool involves a Trait whose maximum
+							rating is 10 (such as Humanity, Path, or Willpower),
+							you can’t add any other Traits to your dice pool. It’s ef-
+							fectively impossible for a normal human being to have
+							more than 10 dice in a dice pool.
+							Elder vampires, on the other hand....
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Difficulty">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Difficulty</h4>
+						<p>
+							Whenever you try to perform an action, the Storyteller 
+							will decide on an appropriate difficulty number and tell 
+							you her decision. A difficulty is always a number between 
+							2 and 10 (but generally between 3 and 9). Each time you score that number or
+							higher on one of your dice, you’re considered to have
+							gained a success. 
+						</p>
+						<p>
+							For example, if an action’s difficulty is
+							a 6 and you roll a 3, 3, 8, 7 and 10, then you’ve scored
+							three successes. The more you get, the better you do.
+
+						</p>
+						<p>
+							You need only one success to perform most actions successfully, 
+							but that’s considered a marginal success. If
+							you score three or more, you succeed completely. Also,
+							a result of a 10 is always a success, no matter the difficulty number.
+						</p>
+						<p><b>Levels of Difficulty</b> (number you need to roll to succeed):</p>
+						<ul class="text-left">
+							<li>Three: Trivial (scanning a small crowd for a familiar face)</li>
+							<li>Four: Easy (following a trail of blood)</li>
+							<li>Five: Straightforward (seducing some one who’s already “in the mood”)</li>
+							<li>Six: Standard (firing a gun)</li>
+							<li>Seven: Challenging (locating where those agonized whispers are coming from)</li>
+							<li>Eight: Difficult (convincing a cop that this isn’t your cocaine)</li>
+							<li>Nine: Extremely difficult (walking a tightrope)</li>
+						</ul>
+
+						<p><b>Degrees of Success</b> (number dice at or above the difficulty):</p>
+						<ul class="text-left">
+							<li><b>One success:</b> Marginal (you managed to jump from one roof to another, but you're hanging on the edge of the roof by your hands)</li>
+							<li><b>Two successes:</b> Moderate (you managed to jump to the other side, but landed very hard)</li>
+							<li><b>Three successes:</b> Complete (you jumped over without much problems)</li>
+							<li><b>Four successes:</b> Exceptional (you gracefully jumped over and landed on your feet)</li>
+							<li><b>Five or more:</b> Phenomenal (you perform a backflip over to the other side and land gracefully without a sound.)</li>
+						</ul>
+						<h4>Automatic Success:</h4>
+						<p>
+							Sometimes rolling dice is unnecessary, particularly
+							when the task is a relatively simple one for a character,
+							or when there’s not much at dramatic stake to necessitate 
+							determining how well a character succeeds or fails.
+						</p>
+						<p>
+							Simply put, if the number of dice in your dice pool is
+							equal to or greater than the task’s difficulty, your character 
+							automatically succeeds. No dice roll is necessary.
+							Mind you, this does not work for all tasks, and never
+							works in combat or other stressful situations. 
+						</p>
+						<p>
+							Furthermore, an automatic success is considered marginal, just
+							as if you’d gotten only one success on the roll. If quality
+							is an issue you might want to roll the dice pool anyway to
+							try for more successes.
+						</p>
+						<p>
+							There’s another way to get an automatic success on
+							a roll: Simply spend a Willpower point (p. 267). You
+							can do this only once per turn, and since you have a
+							limited supply of Willpower you can’t do this too often,
+							but it can certainly help when you’re under pressure to
+							succeed.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Failures/Botches">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Failure:</h4>
+						<p>
+							If you score no successes on a roll, your character
+							fails his attempted action: He misses his punch. The
+							file is encrypted too well. The Prince doesn’t believe
+							her alibi. Failure, while usually disappointing, is not so
+							catastrophic as a botch (below).
+						</p>
+						<h4>Botch:</h4>
+						<p>
+							One more basic of a rollis a “botch.” 
+							Whenever one of the dice comes up as a 1, it cancels out a success. 
+							Completely. Take the die showing 1 and one of the dice showing a 
+							success and set them aside. In this manner, an otherwise successful
+							action may be reduced to failure.
+						</p>
+						<p>
+							If none of your dice comes up a success, and one or more dice are dice showing 1, the roll is a botch.
+						</p>
+						<p>
+							A botch is much worse than a normal failure — it’s
+							dramatic misfortune. For instance, botching a Stealth roll 
+							when breaking into an apartment makes so much racket 
+							the neighbor calls the police. Botching an Animal Ken roll enrages the animal.
+						</p>
+						<p>
+							The Storyteller decides exactly what goes
+							wrong; a botch may produce a minor inconvenience or
+							might result in wholesale catastrophe.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Actions">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Actions</h4>
+						<p><u>Aka "Standard Action" i Pathfinder</u></p>
+						<p>
+							Over the course of a game, a character will do many
+							things. Some of these tasks are considered actions,
+							while others aren’t. One action typically takes one turn to complete.
+
+							<br><br>
+
+							Actions are anything that might
+							produce an interesting outcome to the direction the
+							story takes. Trying to use a Discipline on the Prince,
+							hiding in the shadows to ambush a rival pack, scaling
+							a cemetery wall, attempting to forge a damning note
+							from the Toreador Primogen. 
+						</p>
+							<p>Most actions — crossing the street or loading a pistol, for instance — are
+								easy enough to be considered automatically successful. 
+								However, if you’re trying to cross a four-lane highway 
+								full of speeding trucks, or trying to reload while
+								you’re hanging from a fire escape by one hand, there’s
+								a chance you might fail.
+							</p>
+							<p>
+								If you need only one success to accomplish an action,
+								the action in question is called a <b>simple action</b>. Actions
+								that require more successes or longer periods of time
+								to complete are called <b>extended actions</b>.
+							</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Multiple Actions">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Multiple Actions</h4>
+						<p>
+							Occasionally, a player will want her character to perform 
+							more than one action in a turn. For example, a
+							character may be trying to search through a notebook
+							to find a password while creeping stealthily through a
+							hallway. In such situations, the player can attempt actions 
+							normally, though all actions become more difficult as the
+							character’s attention is split among them.
+						</p>
+						<p>
+							The player declares the total number of actions he
+							wishes his character to attempt and determines which
+							of those dice pools is the smallest. He may then allocate 
+							that number dice among the actions as he sees fit.
+						</p>
+						<p>
+							<b>Example:</b> You want your character to hang a sharp
+							right turn in a stolen taxi cab while simultaneously screaming 
+							at the surprised cabbie in the passenger seat to calm the
+							hell down or you’ll tear him in half. This is a Dexterity +
+							Drive roll (for which your character has seven dice) and
+							a Charisma + Intimidation roll (for which your character
+							has five dice). Five dice is the smaller dice pool, and you
+							may thus divide five dice among the number of actions you
+							want to take. That is, you may allocate these five dice as
+							you see fit between the driving maneuver and intimidating
+							the cabbie.
+						</p>
+						<p>
+							Note: Vampires with the Discipline of Celerity
+							may take multiple actions without subtracting dice
+							from their dice pools. These extra actions may not
+							themselves be divided into multiple actions.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Reflexive Actions">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Reflexive Actions</h4>
+						<p><u>Aka "Move Action" i Pathfinder</u></p>
+						<p>
+							In some cases, taking a particular significant action
+							doesn’t actually take any appreciable amount of time.
+							These actions often come as a result of or are triggered
+							by other actions. In game terms, these are called reflexive actions.
+						</p>
+						<p>
+							Your character can perform one
+							whenever the opportunity arises, and may also take his
+							normal action, without any penalty.
+						</p>
+						<p>
+							For instance, spending a blood point to increase an
+							Attribute is considered to take less than a second of
+							game time — no dice are rolled, and your character
+							can do this while doing something else. Soaking —
+							withstanding the damage from an attack — is likewise
+							a reflexive action. Making a Humanity roll is a reflexive action, 
+							though it may well lead to other, standard
+							actions.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Extended Actions">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Extended Actions</h4>
+						<p>
+							When you need multiple successes
+							to score even a marginal success, you’re undertaking
+							an extended action. 
+						</p>
+						<p>
+							For example, a Nosferatu might
+							spend all night listening in on a conversation between
+							to scheming Kindred, or a Gangrel might be engaged
+							in fleeing mortal police for a prolonged
+							period of time.
+						</p>
+						<p>
+							In an extended action, you roll your dice pool over
+							and over at subsequent intervals, trying to collect
+							enough successes to succeed.
+						</p>
+						<p>
+							<b>For example:</b> The Storyteller tells you that you need 15 successes to hollow out a den
+							that provides sufficient protection from the sun. You’ll
+							eventually succeed, but the longer you go, the more
+							chance there is of you botching and collapsing the
+							tunnel. What’s more, if you have only so many turns
+							before dawn, the speed with which you finish your task
+							becomes doubly important. <i>The Storyteller in all cases
+							is the final authority on which tasks are extended actions and which aren’t.</i>
+						</p>
+						<p>
+							You can usually take as many turns as you want to
+							finish an extended action. If you botch a roll, however, you probably have
+							to start over again from scratch, and likely have some other resultant 
+							catastrophe to worry about.
+						</p>
+						<p>
+							Depending on what you’re trying to do, the Storyteller may even
+							rule that you can’t start over again at all; you’ve failed and that’s that.
+						</p>
+						<p>
+							<b>Note:</b> The interval for a roll in an extended action
+							need not be only a turn. A Ventrue might attempt a long-term seduction of a rival’s mortal daughter.
+							 Many protracted Discipline powers (like Conditioning) invoke extended actions that take place over 
+							 a long period of time.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Resisted Actions">
+					<ng-template ngbTabContent>
+						<br>
+						<h4>Resisted Actions</h4>
+						<p>
+							A simple difficulty number might not be enough to
+							represent a struggle between characters. For instance,
+							you may try to batter down a door while a character on 
+							the other side tries to hold it closed.
+						</p>
+						<p>
+							In such a case, you’d make a resisted roll — each of you rolls
+							dice against a difficulty (often determined by one of
+							your opponent’s Traits), and the person who scores the
+							most successes wins.
+						</p>
+						<p>
+							However, you’re considered to score only as many
+							successes as the amount by which you exceed your opponent’s successes. 
+							In other words, the opponent’s successes eliminate your own, just as 1s do.
+						</p>
+						<p>
+							If, for example, you score four successes and your opponent scores three,
+							you’re considered to have only one success: a marginal accomplishment.
+						</p>
+						<p>
+							Some actions (debating an opponent in front of an
+							assembled Elysium, a cat-and-mouse pursuit) may be
+							both extended and resisted. In such cases, one or the
+							other of the opponents must achieve a certain number
+							of successes to succeed. Each success above the rival’s
+							total number in a given turn is added to a running tally.
+							The first to achieve the designated number of successes
+							wins the contest.
+						</p>
+					</ng-template>
+				</ngb-tab>
+			</ngb-tabset>
+	</div>
+</div>

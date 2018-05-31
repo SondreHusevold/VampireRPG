@@ -1,0 +1,5 @@
+{
+	"name": "Knowledges",
+	"description": " Knowledges involve the application of the mind, not the body. Consequently, Knowledge Abilities are most often paired with Mental Traits. (It’s possible to roll Charisma + Academics, or even Stamina + Medicine, but such things are pretty rare.) The following descriptions speak of Knowledge levels in collegiate terms, although formal schooling is just one way to improve a Knowledge. Indeed, Knowledges can be self-taught, and the World of Darkness is home to any number of autodidacts. If you don’t have any dots in a Knowledge, you cannot even attempt a roll involving it unless the Storyteller gives explicit permission (such as where common trivia is concerned). If you don’t know Spanish, you can’t try holding a conversation en español on your wits alone.",
+	"abilities": ["Academics", "Computer", "Finance", "Investigation", "Law", "Medicine", "Occult", "Politics", "Science", "Technology"]
+}

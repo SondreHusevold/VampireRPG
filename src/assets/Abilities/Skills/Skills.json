@@ -1,0 +1,5 @@
+{
+	"name": "Skills",
+	"description": " Skills are Abilities learned through training, apprenticeships, or other instruction. If you try to perform an action involving a Skill in which you have no rating, your difficulty is increased by one. An unskilled worker just isn’t as effective as someone who might have lower Attributes but a better understanding of what the procedure entails.",
+	"abilities": ["Animal Ken", "Crafts", "Drive", "Etiquette",  "Firearms", "Larceny", "Melee", "Performance", "Stealth", "Survival"]
+}
