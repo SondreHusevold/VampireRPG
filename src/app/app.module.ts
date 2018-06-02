@@ -12,6 +12,7 @@ import { AttributesComponent } from './attributes/attributes.component';
 import { AbilitiesComponent } from './abilities/abilities.component';
 import { D10systemComponent } from './d10system/d10system.component';
 import { DisciplinesComponent } from './disciplines/disciplines.component';
+import { SettingComponent } from './setting/setting.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DisciplinesComponent } from './disciplines/disciplines.component';
     AttributesComponent,
     AbilitiesComponent,
     D10systemComponent,
-    DisciplinesComponent
+    DisciplinesComponent,
+    SettingComponent
   ],
   imports: [
     BrowserModule,
