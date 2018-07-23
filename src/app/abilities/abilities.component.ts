@@ -22,7 +22,7 @@ export class AbilitiesComponent implements OnInit {
 		private location: Location,
 		private modalService: NgbModal) { }
 
-	ngOnInit() {
+	ngOnInit() { 
 		this.route.paramMap.subscribe((params: ParamMap) => {
 			this.abilityTypeId = params.get('type');
 			this.getAbilityType();

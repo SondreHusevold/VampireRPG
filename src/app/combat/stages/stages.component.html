@@ -1,0 +1,212 @@
+<div class="row">
+	<div class="col">
+		<h1>Combat Stages:</h1>
+			<p>Combat is divided into a series of three-second turns.
+				Each combat turn has three stages to make it easier to keep track
+				of things.
+			</p>
+	</div>
+</div>
+<hr>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<ngb-tabset>
+				<ngb-tab title="Initiative">
+					<ng-template ngbTabContent>
+						<br>
+						<h2>Initiative</h2>
+						<p>
+							This stage organizes the turn and is when you declare your character’s action. You must declare what your character does, you must also state if any multiple actions will be performed, if Disciplines will be activated, if Willpower points will be spent, or if the character wants to delay the turn. 
+						</p>
+
+						<p>
+							After declaring the action, you wait until the attack stage to implement that action. 
+						</p>
+						<p>
+							Everyone, player and Storyteller character alike, <b>rolls
+							one die</b> and adds it to their initiative rating (<b>Dexterity + Wits</b>);
+						</p>
+						<p>
+							Characters declare in
+							reverse order of initiative, thus giving faster characters
+							the opportunity to react to slower characters’ actions.
+						</p>
+						<p>
+							Remember that wound penalties subtract directly
+							from a character’s initiative rating, while Celerity dots
+							that aren’t being used for extra actions add to it
+						</p>
+					</ng-template>
+					<
+				</ngb-tab>
+				<ngb-tab title="Attack">
+					<ng-template ngbTabContent>
+						<br>
+						<h2>The attack stage:</h2>
+						<p>
+							Attacks are the meat of the combat turn. You use a certain Attribute/Ability combination depending on the type of combat in which your character is engaged.
+						</p>
+						<p>
+							If your character doesn’t have points in
+							the necessary Ability, fall back to the Attribute (Dexterity).
+						</p>
+						<p>
+							<b>
+							Close Combat:	</b> Dexterity + Brawl (unarmed) or Dexterity + Melee (armed).
+						
+						</p>
+						<p>
+							<b>
+							Ranged Combat: 	</b>Dexterity + Firearms (guns)
+							or Dexterity + Athletics (thrown weapons).
+						</p>
+						<h4>Most attacks are made versus difficulty 6.</h4>
+						<p>
+							This can be adjusted however for situational modifiers like long range or cramped quarters.
+						</p>
+						<p>
+							In ranged combat, your weapon may modify your dice
+							pool or difficulty (due to rate of fire, a targeting scope, etc.); check the weapon’s statistics for details.
+						</p>
+
+						<br>
+						<p>No successes = No damage</p>
+						<p>Botch = Weapon jam, explodes, blade breaks, ally is hit...</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Resolution">
+					<ng-template ngbTabContent>
+						<br>
+						<h2>Resolution:</h2>
+						<p>
+							During this stage, you determine the damage inflicted
+							by your character’s attack, and the Storyteller describes
+							what occurs in the turn.
+						</p>
+						<p>
+							Normally, additional successes gained on a Trait roll
+							simply mean that you do exceptionally well. In combat, each extra success you get on an attack roll equals an additional die you add automatically to your damage dice pool. This creates cinematic and often fatal
+							combat.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Soaking">
+					<ng-template ngbTabContent>
+						<br>
+						<h2>Soaking:</h2>
+						<p>
+							Characters can resist a certain degree of physical
+							punishment; this is called soaking damage.
+						</p>
+						<p>
+							Your character’s soak dice pool is equal to her <b>Stamina</b>. A normal human can soak only bashing damage. A vampire (or other supernatural being) is tougher, and can thus use soak dice against lethal damage.
+						</p>
+						<p>
+							After an attack hits and inflicts damage, the defender may make a soak roll to resist. This is considered a reflexive action; characters need not take an action or split a dice pool to soak. Each soak success subtracts one die from the total damage inflicted. 
+						</p>
+						<p>
+							<b>Unless otherwise stated, soak
+							rolls are made versus difficulty 6.</b> As with
+							damage rolls, soak rolls may not botch, only fail.
+						</p>
+						<br>
+						<p>
+							Aggravated damage may be soaked only with the Discipline of Fortitude.
+						</p>
+						<p>
+							The Discipline Fortitude also adds to the defender’s soak rating against bashing or lethal damage (so a character with Stamina 3 and Fortitude 2 has five soak dice against bashing and lethal damage, but only two soak dice against aggravated damage).
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Summary">
+					<ng-template ngbTabContent>
+						<br>
+						<h1>Quick summary:</h1>
+						<h4>Stage 1: Initiative</h4>
+						<p>
+							Roll initiative (<b>1x D10 + Dexterity + Wits</b>).
+						</p>
+						<p>
+							Everyone declares their actions in reverse order to let faster character act on slower characters. The character with highest initiative performs her action first. Actions can be delayed to any time later in the order of initiative.
+						</p>
+						<p>
+							Declare any multiple actions, reducing dice
+							pools accordingly. Declare Discipline activation and Willpower expenditure.
+						</p>
+						<br>
+						<h4>Stage 2: Attack</h4>
+						<p>Uarmed close-combat attacks, roll <b>Dexterity + Brawl.</b></p>
+						<p> Armed close-combat attacks, roll <b>Dexterity + Melee.</b></p>
+						<p>Guns, roll <b>Dexterity + Firearms</b>.</p>
+						<p>Thrown weapons, roll <b>Dexterity + Athletics</b>.</p>
+						<p>
+							A character can abort to a defensive action
+							(block, dodge, parry) at any time before her
+							action is performed, as long as you make a
+							successful Willpower roll (or a Willpower
+							point is spent).
+						</p>
+						<br>
+						<h4>Stage 3: Resolution</h4>
+						<p>
+							Determine total damage effect (weapon type or maneuver), adding any extra dice gained from successes on the attack roll.
+						</p>
+						<p>
+							Targets may attempt to soak damage, if possible.
+						</p>
+					</ng-template>
+				</ngb-tab>
+				<ngb-tab title="Example Play">
+					<ng-template ngbTabContent>
+						<br>
+						<h1>Example play:</h1>
+						<h4>Stage 1: Initiative</h4>
+						<p>
+							Alice got 8.
+						</p>
+						<p>
+							Bob got 7.
+						</p>
+						<p>
+							Charlie got 6.
+						</p>
+						<p>
+							Danielle got 5.
+						</p>
+						<br>
+						<h4>Stage 2: Attack</h4>
+						<p>
+							Danielle: "I attack Alice."
+						</p>
+						<p>
+							Charlie: "I attack Dan."
+						</p>
+						<p>
+							Bob: "I activate Celerity for one extra action. With my normal action, I attack Charlie."
+						</p>
+						<p>
+							Alice: "I attack Dan."
+						</p>
+						<br>
+						<h4>Stage 3: Resolution</h4>
+						<p>
+							Alice attacks Dan. Dan may abort to defense, but chooses not to. The attack roll is resolved, and Alice gets one success. She rolls her damage, then Dan rolls to soak.
+						</p>
+						<p>
+							Bob attacks Charlie, damage is fully resolved.
+						</p>
+						<p>
+							Charlie attacks Dan, damage is fully resolved.
+						</p>
+						<p>
+							Dan attacks Alice, damage is fully resolved.
+						</p>
+						<p>
+							Bob uses his Celerity action to attack Alice.
+						</p>
+					</ng-template>
+				</ngb-tab>
+			</ngb-tabset>
+	</div>
+</div>

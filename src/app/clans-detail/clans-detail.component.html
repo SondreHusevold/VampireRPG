@@ -162,9 +162,10 @@
 						<h5>Ventrue:</h5> 
 						<p>&nbsp;"{{clan.stereotypesClans.ventrue}}"</p>
 					</div>
+					<ng-template #caitiffTip>A vampire with thin vampiric blood. They are barely considered vampires.</ng-template>
 					<div class="row">
 						<div class="col-sm-2"></div>
-						<h5>Caitiff:</h5> 
+						<h5 [ngbTooltip]="caitiffTip">Caitiff:</h5> 
 						<p>&nbsp;"{{clan.stereotypesClans.caitiff}}"</p>
 					</div>
 				</ng-template>

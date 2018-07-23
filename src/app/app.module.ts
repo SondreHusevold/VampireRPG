@@ -13,6 +13,8 @@ import { AbilitiesComponent } from './abilities/abilities.component';
 import { D10systemComponent } from './d10system/d10system.component';
 import { DisciplinesComponent } from './disciplines/disciplines.component';
 import { SettingComponent } from './setting/setting.component';
+import { TypesComponent } from './combat/types/types.component';
+import { StagesComponent } from './combat/stages/stages.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { SettingComponent } from './setting/setting.component';
     AbilitiesComponent,
     D10systemComponent,
     DisciplinesComponent,
-    SettingComponent
+    SettingComponent,
+    TypesComponent,
+    StagesComponent
   ],
   imports: [
     BrowserModule,

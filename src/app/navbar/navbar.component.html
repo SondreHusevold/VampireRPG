@@ -2,10 +2,11 @@
     <a class="navbar-brand" href="#" routerLink="/home">
     	<img id="logo" src="assets/ankh.png" alt="Home" class="img-fluid">
     </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+  <button class="navbar-toggler hidden-sm-up" type="button" (click)="isNavbarCollapsed = !isNavbarCollapsed" data-target="#navbarsDefault" aria-controls="navbarsDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+ 
+    <div  [ngbCollapse]="isNavbarCollapsed" class="collapse navbar-collapse" id="vampireNavBar">
       <ul class="navbar-nav mr-auto">
 		<li class="nav-item dropdown" ngbDropdown>
 		  <a class="nav-link dropdown-toggle" id="dropdown01" ngbDropdownToggle>Information</a>
@@ -56,6 +57,25 @@
         <li class="nav-item">
           <a class="nav-link" routerLink="/disciplines">Disciplines</a>
         </li>
+        <li class="nav-item dropdown" ngbDropdown>
+		  <a class="nav-link dropdown-toggle" id="dropdown04" ngbDropdownToggle>Combat</a>
+		  <div class="dropdown-menu" aria-labelledby="dropdown04" ngbDropdownMenu>
+		    <a class="dropdown-item" routerLink="/combat/types">Types</a>
+		    <a class="dropdown-item" routerLink="/combat/stages">Combat Stages</a>
+			<!--<a class="dropdown-item" routerLink="/abilities/Knowledges">Health</a>
+		    <a class="dropdown-item" routerLink="/abilities/Knowledges">Damage types</a>
+			<a class="dropdown-item" routerLink="/abilities/Knowledges">Soaking</a>
+			<a class="dropdown-item" routerLink="/abilities/Knowledges">Maneuvers</a>-->
+		  </div>
+		</li>
+        <!--<li class="nav-item dropdown" ngbDropdown>
+		  <a class="nav-link dropdown-toggle" id="dropdown05" ngbDropdownToggle>Dramatic Systems</a>
+		  <div class="dropdown-menu" aria-labelledby="dropdown03" ngbDropdownMenu>
+		    <a class="dropdown-item" routerLink="/abilities/Talents">Willpower</a>
+		    <a class="dropdown-item" routerLink="/abilities/Skills">Blood Pools</a>
+		    <a class="dropdown-item" routerLink="/abilities/Knowledges">Humanity</a>
+		  </div>
+		</li>-->
         <li class="nav-item">
           <a class="nav-link" href="https://mrgone.rocksolidshells.com/pdf/V20/V20_4-Page_Neonate.pdf" target="_blank">Character Sheet</a>
         </li>
