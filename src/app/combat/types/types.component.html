@@ -1,30 +1,116 @@
 <div class="row">
 	<div class="col">
-		<h1>Combat types</h1>
-		<p>
-			There are two types of combat, each involving the same basic system with minor differences:
-		</p>
-		<h3>Close Combat:</h3>
-		<p>
-			This covers unarmed combat
-			(Dexterity + Brawl) and melee (Dexterity + Melee).
-			Unarmed combat can involve a down-and-dirty bar
-			brawl or an honorable test of skill.
-		</p>
-		<p>
-			Opponents must be
-			within touching distance (one yard/meter) to engage
-			in unarmed combat. Melee involves handheld weapons, from broken bottles to swords. Opponents must
-			be within two yards/meters of each other to engage in
-			melee.
-		</p>
-		<br>
-		<h3>Ranged Combat:</h3>
-		<p>
-			Armed combat using projectile
-			weapons — pistols, rifles, shotguns, etc. Opponents
-			must normally be within sight (and weapon range) of
-			each other to engage in a firefight.
-		</p>
+			<h1>Combat/Damage types</h1>
+	</div>
+</div>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<ngb-tabset>
+			<ngb-tab title="Combat Types">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Combat Types</h1>
+					<p>
+						There are two types of combat, each involving the same basic system with minor differences:
+					</p>
+					<hr class="col-sm-8">
+					<h3>Close Combat:</h3>
+					<p>
+						This covers unarmed combat
+						(Dexterity + Brawl) and melee (Dexterity + Melee).
+						Unarmed combat can involve a down-and-dirty bar
+						brawl or an honorable test of skill.
+					</p>
+					<p>
+						Opponents must be
+						within touching distance (one yard/meter) to engage
+						in unarmed combat. Melee involves handheld weapons, from broken bottles to swords. Opponents must
+						be within two yards/meters of each other to engage in
+						melee.
+					</p>
+					<hr class="col-sm-8">
+					<h3>Ranged Combat:</h3>
+					<p>
+						Armed combat using projectile
+						weapons — pistols, rifles, shotguns, etc. Opponents
+						must normally be within sight (and weapon range) of
+						each other to engage in a firefight.
+					</p>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Damage Types">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Damage Types</h1>
+					<p>
+						All attacks have specific damage ratings, indicating 
+						the number of dice to roll for the attack’s damage called the damage dice pool.
+					</p>
+					<p>
+						Some damage dice pools
+						are based on the attacker’s Strength, while others are
+						based on the weapon used. <b>Damage dice rolls are made
+						versus difficulty 6.</b> Each success on the damage roll inflicts one health level of damage on the target. However, the damage applied may be one of three types:
+					</p>
+					<hr class="col-sm-8">
+					<h3>Bashing damage:</h3>
+					<p>
+						Bashing damage comprises punches and
+						other blunt trauma that are less likely to kill a victim
+						(especially a vampire) instantly. All characters use
+						their full Stamina ratings to resist bashing effects (see soaking), and
+						the damage heals fairly quickly. Bashing damage is applied to the Health boxes on your character sheet with
+						a “/.”
+					</p>
+					<h3>Lethal damage:</h3>
+					<p>
+						Attacks meant to cause immediate and fatal injury to the target. Mortals may not use Stamina to
+						resist lethal effects (see soaking), and the damage takes quite a while
+						to heal. Vampires may resist lethal damage with their
+						Stamina. Lethal damage is applied to the Health boxes
+						on your vampire’s character sheet with a “X.”
+					</p>
+					<h3>Aggravated damage:</h3>
+					<p>
+						Certain types of attacks are deadly
+						even to the undead. Fire, sunlight, and the teeth and
+						claws of vampires, werewolves, and other supernatural
+						beings are considered aggravated damage.
+					</p>
+					<p>
+						Aggravated damage cannot be soaked except with Fortitude, and it takes quite a while to heal. Aggravated damage is applied to the Health boxes on your character sheet with
+						an asterisk (“*”).
+					</p>
+					<hr class="col-sm-8">
+					<p>
+						Damage dice pools can never be reduced to lower
+						than one die; any attack that strikes its target has at
+						least a small chance of inflicting damage before a soak
+						roll is made. Moreover, damage effect rolls cannot
+						botch; a botched roll simply means the attack glances
+						harmlessly off the target.
+					</p>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Armor">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Armor</h1>
+					<p>
+						Armor adds to your character’s soak (see combat stages). The armor’s rating combines with your base soak for purposes of reducing damage. Armor restricts flexibility based on whether it is light or heavy.
+					</p>
+					<p>
+						Armor protects against bashing, lethal, and aggravated damage from teeth and claws; it does not protect
+						against fire or sunlight. Armor is not indestructible.
+					</p>
+					<p>
+						If the damage rolled in a single attack equals twice the
+						armor’s rating, the armor is destroyed.
+					</p>
+				</ng-template>
+			</ngb-tab>
+		</ngb-tabset>
+
 	</div>
 </div>
