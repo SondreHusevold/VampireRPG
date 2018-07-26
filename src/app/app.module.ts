@@ -16,6 +16,7 @@ import { SettingComponent } from './setting/setting.component';
 import { TypesComponent } from './combat/types/types.component';
 import { StagesComponent } from './combat/stages/stages.component';
 import { ManeuversComponent } from './combat/maneuvers/maneuvers.component';
+import { ChartsComponent } from './combat/charts/charts.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { ManeuversComponent } from './combat/maneuvers/maneuvers.component';
     SettingComponent,
     TypesComponent,
     StagesComponent,
-    ManeuversComponent
+    ManeuversComponent,
+    ChartsComponent
   ],
   imports: [
     BrowserModule,

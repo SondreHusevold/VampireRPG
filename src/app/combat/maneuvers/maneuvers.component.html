@@ -6,11 +6,250 @@
 </div>
 <br>
 <div class="row">
-	<div class="col-sm-3"></div>
-	<div class="col-sm-6">
+	<div class="col-sm-2"></div>
+	<div class="col-sm-8">
 		<ngb-tabset>
 			<ngb-tab title="General Maneuvers">
 				<ng-template ngbTabContent>
+					<br>
+					<h1>General Maneuvers</h1>
+					<hr>
+					<h4>Aborting</h4>
+					<p>
+						You can abandon your character’s declared action in favor of a defensive action as long as your character hasn’t acted in the turn. 
+						Actions that can take the place of a previously declared action include block, dodge, and parry. 
+					</p>
+					<p>
+						A successful Willpower roll versus difficulty 6 (or the expenditure of a Willpower point) 
+						is required for a character to abort an action and perform a defensive one instead.
+					</p>
+					<h4>Ambush</h4>
+					<p>
+						The attacker rolls Dexterity + Stealth in a resisted action against the target’s Perception + Alertness. If
+						 the attacker scores more successes, she can stage one free attack on the target; she then adds any extra successes from the resisted roll to
+						her attack dice pool. Targets already involved in combat cannot be ambushed.
+					<p>
+						On a tie, the attacker still attacks first, although the target may perform a defensive maneuver. On a fail normal initiatives are rolled.
+					</p>
+					<h4>Blind/Fire</h4>
+					<p>
+						Incurs a +2 difficulty, and ranged attacks cannot be accurately made at all.
+					</p>
+					<h4>Flanking</h4>
+					<p>
+						Characters attacking targets from the flank gain an additional attack die. Characters attacking from the rear gain two additional attack dice.
+					</p>
+					<h4>Movement</h4>
+					<p>
+						A character may move half of her running distance (20 meters + (3 * Dexterity)) and still take an action in a turn. Leaping or tumbling may be considered separate actions.
+					</p>
+					<h4>Targeting</h4>
+					<p>
+						Aiming for a specific location incurs an added difficulty, but can bypass armor or cover, or can result in an increased damage effect.
+					</p>
+					<p><b>Medium</b> size (limb, briefcase): +1 Difficulty, No damage modifier</p>
+					<p><b>Small</b> size (hand, head, cellphone): +2 Difficulty, +1 damage</p>
+					<p><b>Precise</b> size (Eye, heart, lock): +3 Difficulty, +2 damage</p>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Defensive Maneuvers">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Defensive Maneuvers</h1>
+					<p>
+						Block, dodge, and parry can be performed as part of
+						a multiple action in your character’s turn (punching
+						then blocking, shooting then dodging, parrying then
+						striking). Using a multiple action to act and defend is
+						advantageous because your character can still accomplish something in a turn besides avoiding attacks.
+					</p>
+					<p>
+						Rather than having to divide your dice pool among
+						multiple defensive actions, you may declare that your
+						character spends an entire turn defending. The normal
+						multiple-action rules are not used in this case.
+					</p>
+					<hr>
+					<h4>Blocking</h4>
+					<p>
+						A Dexterity + Brawl maneuver using your character’s own body to deflect a hand-to-hand bashing attack. 
+						Lethal and aggravated attacks cannot be blocked unless the defender has Fortitude or is wearing armor.
+					</p>
+					<h4>Dodging</h4>
+					<p>
+						A Dexterity + Athletics maneuver useful for avoiding attacks of all types. If there’s no room to maneuver, she must block or parry instead.
+					</p>
+					<h4>Parry</h4>
+					<p>
+						A Dexterity + Melee maneuver using a weapon to block a Brawl or Melee attack.
+					</p>
+					<p>
+						If a character makes a Brawl attack and the defender parries with
+						a weapon that normally causes lethal damage, the attacker can actually be hurt by a successful parry. 
+						If the defender rolls more successes than the attacker does in the resisted action, the defender rolls the weapon’s
+						base damage plus the parry’s extra successes as a damage dice pool against the attacker.
+					</p>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Close Combat Maneuvers">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Close Combat Maneuvers</h1>
+					<p>Check these out in the Core Rulebook (page 275 - 277) if they strike your fancy. Below are all the maneuvers available in a table with their stats.</p>
+					<hr>
+					<div class="row">
+						<div class="col-sm"><p><b>Maneuver</b></p></div><div class="col-sm"><p><b>Traits</b></p></div><div class="col-sm"><p><b>Accuracy</b></p></div><div class="col-sm"><p><b>Difficulty</b></p></div><div class="col-sm"><p><b>Damage</b></p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Bite</p></div><div class="col-sm"><p>Dex + Brawl</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Str + 1 (A)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Block</p></div><div class="col-sm"><p>Dex + Brawl</p></div><div class="col-sm"><p>Special</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>None (R)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Claw</p></div><div class="col-sm"><p>Dex + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Str +1 (A)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Clinch</p></div><div class="col-sm"><p>Str + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Str (C)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Disarm</p></div><div class="col-sm"><p>Dex + Melee</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Special</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Dodge</p></div><div class="col-sm"><p>Dex + Athletics</p></div><div class="col-sm"><p>Special</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>None (R)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Hold</p></div><div class="col-sm"><p>Str + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>None (C)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Kick</p></div><div class="col-sm"><p>Dex + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Str +1</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Parry</p></div><div class="col-sm"><p>Dex + Melee</p></div><div class="col-sm"><p>Special</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>None (R)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Strike</p></div><div class="col-sm"><p>Dex + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Str</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Sweep</p></div><div class="col-sm"><p>Dex + Brawl/Melee</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Str (K)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Tackle</p></div><div class="col-sm"><p>Str + Brawl</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Str +1 (K)</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Weapon Strike</p></div><div class="col-sm"><p>Dex + Melee</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Weapon</p></div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm-4"></div>
+						<div class="col-sm text-left">
+							<p>
+								<b>(A):</b> The maneuver inflicts aggravated damage.
+							</p>
+							<p>
+								<b>(C):</b> The maneuver carries over on successive turns.
+							</p>
+							<p>
+								<b>(K):</b> The maneuver causes knockdown.
+							</p>
+							<p>
+								<b>(R):</b> The maneuver reduces an opponent’s attack successes.
+							</p>
+						</div>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Ranged Combat Maneuvers">
+				<ng-template ngbTabContent>
+						<br>
+						<h1>Ranged Combat Maneuvers</h1>
+						<p>See Core Rulebook (page 277 - 278) if you need further information on how these work. Below are all the maneuvers available for ranged weapons.</p>
+						<p>Some of these maneuvers require a weapon that can do the action. For example a revolver cannot do automatic fire. See the ranged weapons chart for types of weapons that support the skills in question.</p>
+						<hr>
+						<div class="row">
+							<div class="col-sm"><p><b>Maneuver</b></p></div><div class="col-sm"><p><b>Traits</b></p></div><div class="col-sm"><p><b>Accuracy</b></p></div><div class="col-sm"><p><b>Difficulty</b></p></div><div class="col-sm"><p><b>Damage</b></p></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><p>Automatic Fire</p></div><div class="col-sm"><p>Dex + Firearms</p></div><div class="col-sm"><p>+10</p></div><div class="col-sm"><p>+2</p></div><div class="col-sm"><p>Special</p></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><p>Multiple Shots</p></div><div class="col-sm"><p>Dex + Firearms</p></div><div class="col-sm"><p>Special</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>Weapon</p></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><p>Strafing</p></div><div class="col-sm"><p>Dex + Firearms</p></div><div class="col-sm"><p>+10</p></div><div class="col-sm"><p>+2</p></div><div class="col-sm"><p>Special</p></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><p>3-Round Burst</p></div><div class="col-sm"><p>Dex + Firearms</p></div><div class="col-sm"><p>+2</p></div><div class="col-sm"><p>+1</p></div><div class="col-sm"><p>Weapon</p></div>
+						</div>
+						<div class="row">
+							<div class="col-sm"><p>Two Weapons</p></div><div class="col-sm"><p>Dex + Firearms</p></div><div class="col-sm"><p>Normal</p></div><div class="col-sm"><p>+1/Off-Hand</p></div><div class="col-sm"><p>Weapon</p></div>
+						</div>
+						<hr>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Complications/Status Effects">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Maneuver complications</h1>
+					<p>Sometimes not everything goes according to plan. Here are some maneuver complications and status effects.</p>
+					<hr>
+					<h4>Blinded</h4>
+					<p>Add two dice to attack rolls made against a blinded target. Furthermore, blind characters are at +2 difficulty on all actions.</p>
+					<h4>Dazed</h4>
+					<p>
+						If, in a single attack, the attacker rolls a
+						number of damage successes greater than the target’s
+						Stamina (for mortals) or Stamina + 2 (for vampires
+						and other supernatural beings), the victim is dazed.
+					</p>
+					<p>
+						The target must spend her next available turn shaking
+						off the attack’s effects. Only damage successes that
+						penetrate the defender’s soak attempt count toward
+						this total.
+					</p>
+					<h4>Immobilization</h4>
+					<p>
+						Add two dice to attack rolls made
+						on an immobilized (i.e., held by someone or something)
+						but still struggling target. Attacks hit automatically if
+						the target is completely immobilized (tied up, staked,
+						or otherwise paralyzed).
+					</p>
+					<h4>Knockdown</h4>
+					<p>
+						After suffering a knockdown, the subject makes a Dexterity + Athletics roll. 
+						If successful, she may get back on her feet immediately, but her initiative is reduced by two
+						in the next turn. 
+					</p>
+					<p>On a failed roll, the subject spends her next action climbing to her feet, if she chooses to rise.</p>
+					<p>
+						On a botch, she lands particularly hard or at a severe angle, 
+						taking an automatic health level of bashing damage.
+					</p>
+					<p>
+						Maneuvers like tackle and sweep are intended to
+						knock an opponent down. However, an especially
+						powerful attack of any kind may send the target to the
+						ground. Such instances are best left to the Storyteller’s
+						discretion.
+					</p>
+					<h4>Stake Through Heart</h4>
+					<p>
+						A vampire can indeed be
+						incapacitated by the classic wooden stake of legend.
+						However, the legends err on one point: A Kindred impaled through the heart with a wooden stake is merely paralyzed until the stake is removed.
+					</p>
+					<p>
+						To stake a vampire, an attacker must target the heart
+						(difficulty 9). If the attack succeeds and inflicts at least
+						three health levels of damage, the target is immobilized.
+					</p>
+					<p>
+						An immobilized victim is conscious (and may use
+						perception powers, such as those in the Auspex Discipline), 
+						but may not move or spend blood points.
+					</p>
 				</ng-template>
 			</ngb-tab>
 		</ngb-tabset>

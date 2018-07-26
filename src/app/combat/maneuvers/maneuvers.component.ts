@@ -6,11 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./maneuvers.component.css']
 })
 export class ManeuversComponent implements OnInit {
+	constructor() { }
 
-  constructor() { }
-
-  ngOnInit() {
-  	
-  }
-
+	ngOnInit() { 
+	
+	}
 }

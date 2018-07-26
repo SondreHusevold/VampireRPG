@@ -14,46 +14,55 @@
 					<button type="button" class="col-sm btn btn-secondary" routerLink="/abilities/{{abilityType.name}}/{{abil}}">{{abil}}</button>
 				</div>
 			</div>
-			<div *ngIf="selectedAbility">
-				<br>
-				<br>
-				<div class="row">
-					<h4 class="col-sm">{{selectedAbility.name}}</h4>
-				</div>
-				<div class="row">
-					<p class="col-sm" [innerHTML]="selectedAbility.description"></p>
-				</div>
-				<hr class="col-sm-6">
-				<div class="row">
-					<div class="col-sm-3"></div>
-					<div class="col-sm text-left">&#9679; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Poor: {{selectedAbility.levels.one}}</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3"></div>
-					<div class="col-sm text-left">&#9679;&#9679; &nbsp; &nbsp; &nbsp; &nbsp; Average: {{selectedAbility.levels.two}}</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3"></div>
-					<div class="col-sm text-left">&#9679;&#9679;&#9679; &nbsp; &nbsp; &nbsp; Good: {{selectedAbility.levels.three}}</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3"></div>
-					<div class="col-sm text-left">&#9679;&#9679;&#9679;&#9679; &nbsp; &nbsp; Exceptional: {{selectedAbility.levels.four}}</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3"></div>
-					<div class="col-sm text-left">&#9679;&#9679;&#9679;&#9679;&#9679; &nbsp; Outstanding: {{selectedAbility.levels.five}}</div>
-				</div>
-				<hr class="col-sm-6">
-				<div class="row">
-					<div class="col-sm">
-						<h5>Possessed by:</h5> {{selectedAbility.possessedBy}}
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8" *ngIf="selectedAbility">
+					<br>
+					<br>
+					<div class="row">
+						<h4 class="col-sm">{{selectedAbility.name}}</h4>
 					</div>
-				</div>
-				<hr class="col-sm-6">
-				<div class="row">
-					<div class="col-sm">
-						<h5><a (click)="open(content)" routerLink="#">Specialties:</a></h5> {{selectedAbility.specialties}}
+					<div class="row">
+						<p class="col-sm" [innerHTML]="selectedAbility.description"></p>
+					</div>
+					<hr>
+					<h4>Levels</h4>
+					<div class="row text-left">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-1">&#9679;</div>
+						<div class="col-sm"> Poor: {{selectedAbility.levels.one}}</div>
+					</div>
+					<div class="row text-left">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-1 ">&#9679;&#9679;</div>
+						<div class="col-sm ">Average: {{selectedAbility.levels.two}}</div>
+					</div>
+					<div class="row text-left">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-1">&#9679;&#9679;&#9679;</div>
+						<div class="col-sm">Good: {{selectedAbility.levels.three}}</div>
+					</div>
+					<div class="row text-left">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-1">&#9679;&#9679;&#9679;&#9679;</div>
+						<div class="col-sm">Exceptional: {{selectedAbility.levels.four}}</div>
+					</div>
+					<div class="row text-left">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-1">&#9679;&#9679;&#9679;&#9679;&#9679;</div>
+						<div class="col-sm">Outstanding: {{selectedAbility.levels.five}}</div>
+					</div>
+					<hr >
+					<div class="row">
+						<div class="col-sm">
+							<h5>Possessed by:</h5> {{selectedAbility.possessedBy}}
+						</div>
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-sm">
+							<h5><a (click)="open(content)" routerLink="#">Specialties:</a></h5> {{selectedAbility.specialties}}
+						</div>
 					</div>
 				</div>
 			</div>

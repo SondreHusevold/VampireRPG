@@ -8,9 +8,7 @@ import { Clan } from './Clan';
 })
 export class ClanService {
 
-  constructor(private http: HttpClient) { 
-
-  }
+  constructor(private http: HttpClient) { }
 
   getClan(id: string) {
   	return this.http.get('./assets/Clans/' + id + "/" + id + '.json');
