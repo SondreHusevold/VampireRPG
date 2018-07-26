@@ -1,0 +1,232 @@
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<h1>Health</h1>
+			<p>
+				Your character has a Health Trait comprising seven health levels. Although vampires are immortal and do not die naturally, sufficient injury can incapacitate them, drive them into lengthy periods of dormancy, or even kill them once more.
+			</p>
+	</div>
+</div>
+<br>
+<div class="row">
+	<div class="col-sm-3"></div>
+	<div class="col-sm-6">
+		<ngb-tabset>
+			<ngb-tab title="About Health">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Health Chart</h1>
+					<p>Every character has seven health levels, ranging from Bruised to Incapacitated. Characters can also be in full health (with no health levels checked off).</p>
+					<p>
+						When an attacker scores a success on
+						a damage roll, your character takes one health level of
+						damage. This is marked on your character sheet in the
+						appropriate box, although the mark you make depends
+						on the type of damage inflicted. See applying damage.
+					</p>
+					<p>
+						As your character
+						gets more and more battered, it’s increasingly difficult
+						for him to perform even the simplest of tasks. The dice
+						penalty is subtracted from your dice pool for every ac-
+						tion (except reflexive actions such as soak) until the
+						wound heals. The penalty also indicates impaired movement.
+					</p>
+					<hr>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Health Levels">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Health Levels</h1>
+					<p>
+						The Health chart on the character sheet helps you
+						track your character’s current physical condition. It
+						also lists the penalty imposed on your dice pool for
+						each level of injury that your character sustains. As
+						your character suffers more injuries, her health declines
+						until she becomes incapacitated or dies.
+					</p>
+					<hr>
+					<div class="row">
+						<div class="col-sm"><p><b>Health Level</b></p></div>
+						<div class="col-sm"><p><b>Dice Pool Penalty</b></p></div>
+						<div class="col-sm"><p><b>Movement Penalty</b></p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Bruised</p></div>
+						<div class="col-sm"><p>0</p></div>
+						<div class="col-sm"><p>Character is only bruised and suffers no dice pool penalties due to damage.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Hurt</p></div>
+						<div class="col-sm"><p>-1</p></div>
+						<div class="col-sm"><p>Character is superficially hurt and suffers no movement hindrance.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Injured</p></div>
+						<div class="col-sm"><p>-1</p></div>
+						<div class="col-sm"><p>Character suffers minor injuries and movement is mildly inhibited (halve maximum running speed).</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Wounded</p></div>
+						<div class="col-sm"><p>-2</p></div>
+						<div class="col-sm"><p>Character suffers significant damage and may not run (though he may still walk). Character can only move or attack; he always loses dice when moving and attacking in the same turn.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Mauled</p></div>
+						<div class="col-sm"><p>-2</p></div>
+						<div class="col-sm"><p>Character is badly injured and may only hobble about (three yards/meters per turn).</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Crippled</p></div>
+						<div class="col-sm"><p>-5</p></div>
+						<div class="col-sm"><p>Character is catastrophically injured and may only crawl (one yard/meter per turn).</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Incapacitated</p></div>
+						<div class="col-sm"><p>&nbsp;</p></div>
+						<div class="col-sm"><p>Character is incapable of movement and is likely unconscious. Incapacitated vampires with no blood in their bodies enter torpor.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Torpor</p></div>
+						<div class="col-sm"><p>&nbsp;</p></div>
+						<div class="col-sm"><p>Character enters a deathlike trance. He may do nothing, not even spend blood, until a period of time has passed.</p></div>
+					</div>
+					<div class="row">
+						<div class="col-sm"><p>Final Death</p></div>
+						<div class="col-sm"><p>&nbsp;</p></div>
+						<div class="col-sm"><p>Character is killed permanently.</p></div>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Applying Damage">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Applying Damage</h1>
+					<p>
+						This is where you apply bashing, leathal and aggravated damage. Below is the same chart you have on your character sheet.
+					</p>
+					<p>
+						Bashing and lethal damage differ in their effects,
+						but for vampires, both types of damage are considered
+						normal.
+					</p>
+					<hr>
+					<p>
+						 Bashing damage is recorded as a slash <b>[/]</b>
+					</p>
+					<p>
+						Lethal damage is marked with an <b>[X]</b>
+					</p>
+					<p>
+						Aggravated damage is marked with an asterisk <b>[*]</b>
+					</p>
+					<hr>
+					<p>
+						Aggravated damage always gets marked above lethal, which
+						gets marked above bashing. So if you mark a level of
+						lethal damage in the Bruised box, and take one aggravated health level later on, move the lethal damage to the box below by marking the "Hurt" box with a “X.”
+					</p>
+					<p>
+						The aggravated level is then noted by simply drawing
+						another line through the "Bruised" box, turning it into “*.” instead of the original "X".
+					</p>
+					<p>
+						The same applies for bashing and lethal damage. If you have a box with bashing, and you get damaged with lethal damage, you "move" the bashing damage down to the box below, and make the previous bashing damage into an X.
+					</p>
+					<hr>
+					<h4>Health</h4>
+					<p>At this point the character is injured and has a -1 penalty and her speed is reduced by half. Regardless whether the last damage is bashing or not. If your chart is filled with bashing damage, you go into torpor.</p>
+					<div class="row">
+						<div class="col-sm-3"></div>
+						<div class="col-sm-6">
+							<div class="row">
+								<div class="col-sm"><p><b>Bruised</b></p></div>
+								<div class="col-sm"><p><b>&nbsp;</b></p></div>
+								<div class="col-sm"><p><b>[*]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Hurt</b></p></div>
+								<div class="col-sm"><p><b>-1</b></p></div>
+								<div class="col-sm"><p><b>[X]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Injured</b></p></div>
+								<div class="col-sm"><p><b>-1</b></p></div>
+								<div class="col-sm"><p><b>[/]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Wounded</b></p></div>
+								<div class="col-sm"><p><b>-2</b></p></div>
+								<div class="col-sm"><p><b>[  ]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Mauled</b></p></div>
+								<div class="col-sm"><p><b>-2</b></p></div>
+								<div class="col-sm"><p><b>[  ]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Crippled</b></p></div>
+								<div class="col-sm"><p><b>-5</b></p></div>
+								<div class="col-sm"><p><b>[  ]</b></p></div>
+							</div>
+							<div class="row">
+								<div class="col-sm"><p><b>Incapacitated</b></p></div>
+								<div class="col-sm"><p><b>-1</b></p></div>
+								<div class="col-sm"><p><b>[  ]</b></p></div>
+							</div>
+						</div>
+					</div>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Healing Damage">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Healing Damage</h1>
+					<p>
+						A vampire may spend one blood point to heal
+						one normal (bashing or lethal) health level of damage.
+					</p>
+					<p>One blood point per turn may be spent to heal
+						one health level.</p>
+					<p>
+						Note that blood expenditure is the <b><i>only</i></b> way that
+						vampires can heal wounds. Just as their immortality
+						prevents the Kindred from aging and dying naturally,
+						so it also inhibits the recuperative processes natural to
+						a living body.
+					</p>
+					<hr>
+					<h4>Aggravated damage</h4>
+					<p>
+						Aggravated damage is far more difficult to heal. A level of aggravated damage may be healed only with a full day of rest and the expenditure of five blood points (this expendure can be done at any time, but it will not be healed until a full day of rest).
+					</p>
+					<p> 
+						At the end of the full day’s rest, the vampire may cure additional aggravated health levels by spending an additional five blood points and one Willpower point per extra aggravated health level to be healed.
+					</p>
+					<p>
+						Usually this means that you may only cure two points maximum of aggravated damage during a full day of rest. By using five points before resting, hunting and thereby replenishing blood points, resting the full day, expending five more after the rest. 
+					</p>
+				</ng-template>
+			</ngb-tab>
+			<ngb-tab title="Final Death">
+				<ng-template ngbTabContent>
+					<br>
+					<h1>Final Death</h1>
+					<p>
+						If a vampire is at the Incapacitated
+						health level or in torpor and takes one more level of
+						<b><i>aggravated damage</i></b>, he dies permanently.
+					</p>
+					<p>
+						This means a player in torpor must be torched, bitten or slashed by supernatural claws/fangs, take sunlight damage or other forms of aggravated damage to permanently die.
+					</p>
+					<p>
+						Normal bashing or lethal damage does nothing to a vampire in Torpor, unless the damage is massive: Decapitation, being trapped under a 10-ton rock, fed into a wood chipper, caught in an explosion, crushed by deep-sea pressure or similar extreme damage will cause final death for vampires.
+					</p>
+				</ng-template>
+			</ngb-tab>
+		</ngb-tabset>
+	</div>
+</div>

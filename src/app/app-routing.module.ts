@@ -11,6 +11,7 @@ import { TypesComponent } from './combat/types/types.component';
 import { StagesComponent } from './combat/stages/stages.component';
 import { ManeuversComponent } from './combat/maneuvers/maneuvers.component';
 import { ChartsComponent } from './combat/charts/charts.component';
+import { HealthComponent } from './combat/health/health.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/home', pathMatch: 'full' },
@@ -25,7 +26,8 @@ const routes: Routes = [
   { path: 'combat/types', component: TypesComponent },
   { path: 'combat/stages', component: StagesComponent },
   { path: 'combat/maneuvers', component: ManeuversComponent },
-  { path: 'combat/charts', component: ChartsComponent }
+  { path: 'combat/charts', component: ChartsComponent },
+  { path: 'combat/health', component: HealthComponent }
 ];
 
 @NgModule({
