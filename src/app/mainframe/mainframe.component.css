@@ -1,0 +1,48 @@
+.background { 
+	z-index: 50;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.hiddenMusic {
+	display: none;
+}
+
+.loginGap {
+	margin-top: 50px;
+}
+
+.prioritizedLogin {
+	font-family: recharge;
+	z-index: 200;
+	position: fixed;
+}
+
+h3 {
+	color: red;
+	font-size: 20px;
+	font-family: 'recharge';
+}
+
+.loginInput {
+	background-color: #680001FF !important;
+	border: 0px;
+	color: white;
+}
+
+.btn {
+	margin-left: -10px;
+	background-color: transparent;
+	color: red;
+}
+
+.btn:hover {
+	border: 1px solid red;
+}
+
+/deep/ .navbar {
+	display: none;
+}

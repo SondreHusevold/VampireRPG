@@ -3,6 +3,11 @@
     src: url("/assets/MEPHISTO.TTF");
 }
 
+@font-face {
+  font-family: recharge;
+  src: url("/assets/recharge.ttf");
+}
+
 body {
 	padding-top: 70px; 
 }
@@ -67,3 +72,4 @@ body {
 	color: white;
 	background-color: white;
 }
+

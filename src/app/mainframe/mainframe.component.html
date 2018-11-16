@@ -1,0 +1,18 @@
+<video autoplay muted loop class="background">
+  <source src="./assets/Background.mp4" type="video/mp4">
+</video>
+<div class="prioritizedLogin col-sm-12">
+	<h3 class="loginGap">Username:</h3>
+	<input class="loginInput" [(ngModel)]="username" />
+
+	<h3 class="loginGap">Password:</h3>
+	<input class="loginInput" [(ngModel)]="password" type="Password"/>
+	<p>{{loginMessage}}</p>
+	<div class="loginGap col-sm-12">
+		<button class="btn btn-default" (click)="login()">< Login ></button>
+	</div>
+</div>
+
+<iframe width="1" height="1" 
+	src="https://www.youtube.com/embed/reDxLyUoss4?autoplay=1" 
+	frameborder="0" allow="autoplay; encrypted-media" class="hiddenMusic"></iframe>

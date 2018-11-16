@@ -16,9 +16,11 @@
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
     "@ng-bootstrap/ng-bootstrap": "^2.0.0",
+    "@types/jssha": "0.0.29",
     "angular-cli-ghpages": "^0.5.2",
     "bootstrap": "^4.1.1",
     "core-js": "^2.5.4",
+    "jssha": "^2.3.1",
     "rxjs": "^6.0.0",
     "zone.js": "^0.8.26"
   },

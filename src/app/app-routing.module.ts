@@ -1,5 +1,5 @@
 import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, Router } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { ClansDetailComponent } from './clans-detail/clans-detail.component';
 import { AttributesComponent } from './attributes/attributes.component';
@@ -12,22 +12,24 @@ import { StagesComponent } from './combat/stages/stages.component';
 import { ManeuversComponent } from './combat/maneuvers/maneuvers.component';
 import { ChartsComponent } from './combat/charts/charts.component';
 import { HealthComponent } from './combat/health/health.component';
+import { MainframeComponent } from './mainframe/mainframe.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/home', pathMatch: 'full' },
 	{ path: "home", component: DashboardComponent },
-  { path: 'd10system', component: D10systemComponent },
-  { path: 'disciplines', component: DisciplinesComponent },
-  { path: 'setting', component: SettingComponent },
-  { path: 'clans/:id', component: ClansDetailComponent },
-  { path: 'attributes/:id', component: AttributesComponent },
-  { path: 'abilities/:type', component: AbilitiesComponent },
-  { path: 'abilities/:type/:id', component: AbilitiesComponent },
-  { path: 'combat/types', component: TypesComponent },
-  { path: 'combat/stages', component: StagesComponent },
-  { path: 'combat/maneuvers', component: ManeuversComponent },
-  { path: 'combat/charts', component: ChartsComponent },
-  { path: 'combat/health', component: HealthComponent }
+	{ path: 'd10system', component: D10systemComponent },
+	{ path: 'disciplines', component: DisciplinesComponent },
+	{ path: 'setting', component: SettingComponent },
+	{ path: 'clans/:id', component: ClansDetailComponent },
+	{ path: 'attributes/:id', component: AttributesComponent },
+	{ path: 'abilities/:type', component: AbilitiesComponent },
+	{ path: 'abilities/:type/:id', component: AbilitiesComponent },
+	{ path: 'combat/types', component: TypesComponent },
+	{ path: 'combat/stages', component: StagesComponent },
+	{ path: 'combat/maneuvers', component: ManeuversComponent },
+	{ path: 'combat/charts', component: ChartsComponent },
+	{ path: 'combat/health', component: HealthComponent },
+	{ path: 'mainframe', component: MainframeComponent }
 ];
 
 @NgModule({
@@ -36,4 +38,5 @@ const routes: Routes = [
     RouterModule
   ]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule { 
+}
